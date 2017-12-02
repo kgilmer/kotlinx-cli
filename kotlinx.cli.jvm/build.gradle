@@ -1,9 +1,8 @@
 buildscript {
-    ext.kotlin_version = '1.2-Beta-eap-14'
+    ext.kotlin_version = '1.2.0'
 
     repositories {
         mavenCentral()
-        maven { url 'https://dl.bintray.com/kotlin/kotlin-dev' }
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
@@ -14,7 +13,6 @@ apply plugin: 'kotlin-platform-jvm'
 
 repositories {
     mavenCentral()
-    maven { url 'https://dl.bintray.com/kotlin/kotlin-dev' }
 }
 
 dependencies {
