@@ -1,3 +1,15 @@
+# Fork Info
+
+This fork is to enable the consumption of kotlinx.cli via jitpack.io.  
+
+How to consume in your gradle build:
+
+1. Add jitpack.io as a maven repository as [described here](https://jitpack.io/).
+2. Add the following dependency:
+```
+compile 'com.github.kgilmer:kotlinx-cli:bdb0c811'
+```
+
 # kotlinx.cli
 
 [![JetBrains incubator project](http://jb.gg/badges/incubator.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
